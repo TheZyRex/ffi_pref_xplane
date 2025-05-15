@@ -93,9 +93,9 @@ void draw()
   
   
   // Historie zeichnen
-  //for (Position pos : positionHistory.values()) {
-  //  drawHistoryPoint(pos);
-  //}
+  for (Position pos : positionHistory.values()) {
+    drawHistoryPoint(pos);
+  }
 
   // Aktuelle Position zeichnen
   drawAircraft(
